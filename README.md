@@ -6,7 +6,7 @@
 [![Python Version](https://img.shields.io/pypi/pyversions/safe-assert.svg)](https://pypi.org/project/safe-assert/)
 [![wemake-python-styleguide](https://img.shields.io/badge/style-wemake-000000.svg)](https://github.com/wemake-services/docker-image-size-limit)
 
-Allows users to write `assert`s that are not stripped away in [optimized mode](https://docs.python.org/3/using/cmdline.html#cmdoption-o).
+Allows users to write composable `assert`s that are not stripped away in [optimized mode](https://docs.python.org/3/using/cmdline.html#cmdoption-o).
 
 
 ## Features
