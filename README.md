@@ -30,9 +30,13 @@ The usage is identical to `assert` keyword, but a function:
 ```python
 from safe_assert import safe_assert
 
-def sort_positive_number(numbers: List[int]) -> List[int]:
+def sort_positive_numbers(numbers: List[int]) -> List[int]:
     safe_assert(all(num >= 0 for num in numbers), 'found negative')
     return sorted(numbers)
+
+sort_positive_numbers([1, 2, 3])  # => will work
+sort_positive_numbers([-1, 2, 3])
+# => will fail in runtime with `AssertionError`
 ```
 
 How is it different from regular `assert`?
