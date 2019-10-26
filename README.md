@@ -12,6 +12,7 @@ Allows users to write `assert`s that are not stripped away in [optimized mode](h
 ## Features
 
 - Single simple, pythonic, fast, tested, typed, documented function. That's it!
+- Because `safe_assert` is a function, it can be easily compose with other functions
 - Fully typed with annotations and checked with mypy, [PEP561 compatible](https://www.python.org/dev/peps/pep-0561/)
 
 
@@ -34,12 +35,20 @@ def sort_positive_number(numbers: List[int]) -> List[int]:
     return sorted(numbers)
 ```
 
-How is it different to regular `assert`?
-It would not be stripped away with `-O` flag.
+How is it different from regular `assert`?
+The major one is that it would not be stripped away with `-O` flag.
 So, it still allows to write declarative checks that are safe in production.
 
-How does it work?
+The second one is that you can compose it as any other regular function.
+Useful in conjuction with [`dry-python`](https://github.com/dry-python) projects.
+
+
+## Internals
+
+How does it work internally?
 It internally raises `AssertionError` that is also used by `assert` itself.
+
+See [docs](https://github.com/sobolevn/safe-assert/blob/master/safe_assert/__init__.py) to learn more.
 
 
 ## License
