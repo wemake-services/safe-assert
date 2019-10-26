@@ -12,7 +12,7 @@ Allows users to write `assert`s that are not stripped away in [optimized mode](h
 ## Features
 
 - Single simple, pythonic, fast, tested, typed, documented function. That's it!
-- Because `safe_assert` is a function, it can be easily compose with other functions
+- Because `safe_assert` is a function, it can be easily composed with other functions
 - Fully typed with annotations and checked with mypy, [PEP561 compatible](https://www.python.org/dev/peps/pep-0561/)
 
 
@@ -46,7 +46,7 @@ Useful in conjuction with [`dry-python`](https://github.com/dry-python) projects
 ## Internals
 
 How does it work internally?
-It internally raises `AssertionError` that is also used by `assert` itself.
+It internally raises [`AssertionError`](https://docs.python.org/3/library/exceptions.html#AssertionError) that is also used by the `assert` keyword itself.
 
 See [docs](https://github.com/sobolevn/safe-assert/blob/master/safe_assert/__init__.py) to learn more.
 
