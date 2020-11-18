@@ -44,7 +44,7 @@ The major one is that it would not be stripped away with `-O` flag.
 So, it still allows to write declarative checks that are safe in production.
 
 The second one is that you can compose it as any other regular function.
-Useful in conjuction with [`dry-python`](https://github.com/dry-python) projects.
+Useful in conjunction with [`dry-python`](https://github.com/dry-python) projects.
 
 
 ## Internals
