@@ -1,8 +1,8 @@
 # safe-assert
 
 [![wemake.services](https://img.shields.io/badge/%20-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwAjRA8xXANAL%2Bv0SAAAADNJREFUGNNjYCAIOJjRBdBFWMkVQeGzcHAwksJnAPPZGOGAASzPzAEHEGVsLExQwE7YswCb7AFZSF3bbAAAAABJRU5ErkJggg%3D%3D)](https://wemake.services)
-[![test](https://github.com/sobolevn/safe-assert/workflows/test/badge.svg?branch=master&event=push)](https://github.com/sobolevn/safe-assert/actions?query=workflow%3Atest)
-[![codecov](https://codecov.io/gh/sobolevn/safe-assert/branch/master/graph/badge.svg)](https://codecov.io/gh/sobolevn/safe-assert)
+[![test](https://github.com/wemake-services/safe-assert/workflows/test/badge.svg?branch=master&event=push)](https://github.com/wemake-services/safe-assert/actions?query=workflow%3Atest)
+[![codecov](https://codecov.io/gh/wemake-services/safe-assert/branch/master/graph/badge.svg)](https://codecov.io/gh/wemake-services/safe-assert)
 [![Python Version](https://img.shields.io/pypi/pyversions/safe-assert.svg)](https://pypi.org/project/safe-assert/)
 [![wemake-python-styleguide](https://img.shields.io/badge/style-wemake-000000.svg)](https://github.com/wemake-services/wemake-python-styleguide)
 
@@ -52,7 +52,7 @@ Useful in conjunction with [`dry-python`](https://github.com/dry-python) project
 How does it work internally?
 It internally raises [`AssertionError`](https://docs.python.org/3/library/exceptions.html#AssertionError) that is also used by the `assert` keyword itself.
 
-See [docs](https://github.com/sobolevn/safe-assert/blob/master/safe_assert/__init__.py) to learn more.
+See [docs](https://github.com/wemake-services/safe-assert/blob/master/safe_assert/__init__.py) to learn more.
 
 
 ## License

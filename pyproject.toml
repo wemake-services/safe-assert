@@ -19,7 +19,7 @@ authors = [
 
 readme = "README.md"
 
-repository = "https://github.com/sobolevn/safe-assert"
+repository = "https://github.com/wemake-services/safe-assert"
 
 keywords = [
   "assert",
