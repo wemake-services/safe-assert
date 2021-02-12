@@ -852,7 +852,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 
 [[package]]
 name = "wemake-python-styleguide"
-version = "0.15.0"
+version = "0.15.1"
 description = "The strictest and most opinionated python linter ever"
 category = "dev"
 optional = false
@@ -1329,8 +1329,8 @@ urllib3 = [
     {file = "urllib3-1.26.3.tar.gz", hash = "sha256:de3eedaad74a2683334e282005cd8d7f22f4d55fa690a2a1020a416cb0a47e73"},
 ]
 wemake-python-styleguide = [
-    {file = "wemake-python-styleguide-0.15.0.tar.gz", hash = "sha256:c8a3f426cd621f03fb3cc41cbd6754548d1db49bef245bc9a589c20dbff81aff"},
-    {file = "wemake_python_styleguide-0.15.0-py3-none-any.whl", hash = "sha256:3911a78c3475ab388da45c6291ac4130e4b862d807666aaa3997b2e833da6db8"},
+    {file = "wemake-python-styleguide-0.15.1.tar.gz", hash = "sha256:fe3c867e8960d4a755cbee09fcbeabd7f35b37289aaa6acce931b2ccd806300e"},
+    {file = "wemake_python_styleguide-0.15.1-py3-none-any.whl", hash = "sha256:d0fc6a62533903531cbb77a45822090a71052ce3f340fe1a11886f10bc1131f8"},
 ]
 zipp = [
     {file = "zipp-3.4.0-py3-none-any.whl", hash = "sha256:102c24ef8f171fd729d46599845e95c7ab894a4cf45f5de11a44cc7444fb1108"},
