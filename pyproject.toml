@@ -42,7 +42,7 @@ nitpick = "^0.29"
 
 safety = "^2.2"
 
-pytest = "^6.2"
+pytest = ">=6.2,<8.0"
 pytest-cov = "^3.0"
 pytest-randomly = "^3.10"
 
