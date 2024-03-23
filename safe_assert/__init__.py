@@ -1,10 +1,10 @@
-from typing import NoReturn, Optional
+from typing import Optional
 
 
 def safe_assert(  # type: ignore
     expression: bool,
     message: Optional[str] = None,
-) -> NoReturn:
+) -> None:
     """
     This function mimics ``assert`` keyword behavior.
 
