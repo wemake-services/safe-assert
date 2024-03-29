@@ -34,7 +34,7 @@ classifiers = [
 [tool.poetry.dependencies]
 python = "^3.9"
 
-[tool.poetry.group.test.dependencies]
+[tool.poetry.group.dev.dependencies]
 mypy = "^1.9"
 
 wemake-python-styleguide = "^0.19"
