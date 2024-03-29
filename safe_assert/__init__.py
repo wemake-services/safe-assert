@@ -1,7 +1,7 @@
 from typing import Optional
 
 
-def safe_assert(  # type: ignore
+def safe_assert(
     expression: bool,
     message: Optional[str] = None,
 ) -> None:
