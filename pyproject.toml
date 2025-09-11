@@ -43,7 +43,7 @@ nitpick = "^0.35"
 
 pytest = "^8.1"
 pytest-cov = ">=5,<8"
-pytest-randomly = "^3.12"
+pytest-randomly = ">=3.12,<5.0"
 
 
 [build-system]
